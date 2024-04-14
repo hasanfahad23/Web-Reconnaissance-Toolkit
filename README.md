@@ -13,11 +13,11 @@ The Website Recon Tool is a comprehensive reconnaissance tool designed for secur
 ## Installation
 1. Clone the repository:
    ```
-   https://github.com/hasanfahad23/Web-Reconnaissance-Toolkit.git
+    git clone  https://github.com/hasanfahad23/Web-Reconnaissance-Toolkit.git
    ```
 2. Navigate to the project directory:
    ```
-   cd Website-Recon-Tool
+    cd Web-Reconnaissance-Toolkit 
    ```
 3. Install the required Python packages:
    ```
