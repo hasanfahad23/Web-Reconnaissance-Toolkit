@@ -1,7 +1,6 @@
-```markdown
-# Website Recon Tool 🌐
+Website Recon Tool 🌐
 
-This tool is designed to perform reconnaissance on websites, providing valuable information for security analysis and penetration testing purposes.
+The Website Recon Tool is a comprehensive reconnaissance tool designed for security analysts and penetration testers to gather valuable information about target websites.
 
 ## Features
 - **IP Address Lookup**: Quickly find the IP address of a website.
@@ -20,9 +19,9 @@ This tool is designed to perform reconnaissance on websites, providing valuable 
    ```
    cd Website-Recon-Tool
    ```
-3. Make the script executable:
+3. Install the required Python packages:
    ```
-   chmod +x website_recon.py
+   pip install -r requirements.txt
    ```
 
 ## Usage
@@ -32,14 +31,24 @@ Run the script and follow the prompts to perform various reconnaissance tasks.
 ./website_recon.py
 ```
 
-## Dependencies
-- Python 3.x
-- Required Python packages (install using `pip`):
-  ```
-  pip install -r requirements.txt
-  ```
+## Options
+- **-t, --target**: Specify the target website.
+- **-w, --whois**: Generate a WHOIS report.
+- **-t, --tech**: Perform technology detection.
+- **-d, --dns**: Retrieve DNS information.
+- **-s, --subdomains**: Enumerate subdomains.
+- **-r, --report**: Generate a report.
+
+Example:
+```bash
+./website_recon.py -t example.com -w -t -d -s -r
+```
+
+## Developer
+- **Fahad Hossain**
+  - GitHub: [hasanfahad23](https://github.com/hasanfahad23)
+  - LinkedIn: [Fahad Hossain](https://www.linkedin.com/in/fahad-hossain-bb3637278/)
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ```
-This README provides an overview of the Website Recon Tool, including its features, installation instructions, usage guidelines, dependencies, and licensing information. It uses emojis to make the document more visually appealing and informative.
