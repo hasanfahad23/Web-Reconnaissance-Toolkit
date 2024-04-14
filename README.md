@@ -22,13 +22,15 @@ The Website Recon Tool is a comprehensive reconnaissance tool designed for secur
 3. Install the required Python packages:
    ```
    pip install -r requirements.txt
+   
    ```
+   
 
 ## Usage
 Run the script and follow the prompts to perform various reconnaissance tasks.
 
 ```bash
-./website_recon.py
+./main.py
 ```
 
 ## Options
